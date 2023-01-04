@@ -12,8 +12,8 @@ const Search = ()=>{
     }
     const [validChild,setValidChild] = useState(true)
     const [validAdult,setValidAdult] = useState(true)
-    const [stayDate,setStayDate] = useState(new Date())
-    const [returnDate,setReturnDate] = useState(new Date())
+    const [stayDate,setStayDate] = useState()
+    const [returnDate,setReturnDate] = useState()
     return(
         <ScrollView >
     <View style={styles.container}>
